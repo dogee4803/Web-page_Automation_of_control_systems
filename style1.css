@@ -1,0 +1,121 @@
+header{
+    background: url('pictures/shapka.jpg') bottom center no-repeat;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    background-size: auto;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    size: auto;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: auto;;
+}
+footer{
+    height: 130px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.header-Topic {
+    font-family: 'Franklin Gothic Medium';
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}
+.header-subTopic {
+    font-family: 'Noto Sans';
+    font-size: medium;
+    color: rgb(225, 225, 255);
+    padding: 0px 20px 30px 20px;
+    text-align: center;
+}
+.horizontal-menu {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #dbdbdb;
+}
+.ul-horizontal-menu{
+    margin: auto;
+}
+.horizontal-menu-item{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.link-active{
+    font-family: 'Noto Sans';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.right-part{
+    min-width: 20%;
+}
+.secondmenu {
+    float: right;
+    width: 100%;
+    flex: 1;
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    margin-right: 0px;
+}
+.header-main-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    flex: 1;
+    box-sizing: border-box;
+}
+.header-future-prof{
+    font-family: 'Franklin Gothic Medium';
+}
+.future_prof{
+    text-align: center;
+    width: auto;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+.future_prof_items{
+    column-count: 3;
+}
+.adress-contacts {
+    text-align: center;
+}
+.footer-contacts {
+    display: block;
+    color: rgb(150, 150, 150);
+}
+.custom-btn{
+	background: linear-gradient(to bottom, #cbd0d4, #898a8b);
+	color: rgb(77, 78, 87);
+}
+.picture {
+    width: 230px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

@@ -10,21 +10,22 @@ header{
     margin-top: 0;
 }
 main{
-    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(206, 249, 255);
     height: auto;
     size: auto;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: auto;;
+    padding: auto;
 }
 footer{
-    height: 130px;
+    height: auto;
     width: auto;
     background-color: rgb(0, 0, 0);
     color: white;
     padding-bottom: 20px;
-    margin-top: 0;
+    margin-top: auto;
 }
 .wrapper {
     overflow: hidden;
@@ -63,19 +64,18 @@ footer{
     text-decoration: underline;
 }
 .content{
-    display: flex;
+    display:flex;
     flex-direction: row;
     padding: 20px;
-}
-.right-part{
-    min-width: 20%;
+    flex-wrap: wrap;
 }
 .secondmenu {
+    height: fit-content;
+    max-width: 20%;
     float: right;
-    width: 100%;
-    flex: 1;
+    flex: auto;
     background-color: #dbdbdb;
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin-right: 0px;
 }
 .header-main-text{
@@ -108,14 +108,10 @@ footer{
     display: block;
     color: rgb(150, 150, 150);
 }
-.custom-btn{
-	background: linear-gradient(to bottom, #cbd0d4, #898a8b);
-	color: rgb(77, 78, 87);
-}
 .picture {
     width: 230px;
-    height: 100px;
+    height: 150px;
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
-}
+} 

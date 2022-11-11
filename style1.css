@@ -71,7 +71,7 @@ footer{
 }
 .secondmenu {
     height: fit-content;
-    max-width: 20%;
+    max-width: 200px;
     float: right;
     flex: auto;
     background-color: #dbdbdb;

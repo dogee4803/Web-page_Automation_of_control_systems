@@ -3,29 +3,36 @@ header{
     height: auto;
     background-color: rgb(0, 0, 0);
     background-size: auto;
-    width: auto;
+    max-width: 1400px;
+    width: 100%;
     height: auto;
     color: rgb(255, 255, 255);
-    text-align: left;
+    align-self: center;
+    text-align: center;
     margin-top: 0;
 }
 main{
     font-family: 'Franklin Gothic Medium';
-    background-color: rgb(206, 249, 255);
+    background-color: rgb(233, 233, 233);
     height: auto;
     size: auto;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 footer{
     height: auto;
-    width: auto;
+    max-width: 1400px;
+    width: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
     padding-bottom: 20px;
-    margin-top: auto;
+    margin-top: 0px;
+    align-self: center;
 }
 .wrapper {
     overflow: hidden;
@@ -76,7 +83,17 @@ footer{
     flex: auto;
     background-color: #dbdbdb;
     box-sizing: content-box;
-    margin-right: 0px;
+}
+.atuin-btn {
+    display: inline-flex;
+    position: relative;
+    line-height: 17px;
+    padding: 7px 8px 7px 7px;
+    margin-right: 10px;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium';
+    background: #9795a0; 
+    border: 1px solid #a3a3a3;
 }
 .header-main-text{
     text-align: center;
@@ -109,9 +126,20 @@ footer{
     color: rgb(150, 150, 150);
 }
 .picture {
+    border: 1px solid rgb(0, 0, 0);
     width: 230px;
     height: 150px;
+    margin-right: 10px;
+    margin-bottom: 5px;
     float: left;
-    padding-right: 10px;
-    padding-bottom: 10px;
-} 
+}
+.main-text-present {
+    font-weight: bold;
+}
+.table-header{
+    align-self: center;
+    font-weight: bold;
+}
+.p-contacts{
+    font-weight: bold;
+}
